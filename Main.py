@@ -534,7 +534,6 @@ def leaderBoardPage():
     records.sort(reverse=True)
     for i in range(len(records)):
         record = records[i].split(',')
-        print(record)
         tree.insert(parent='',index=END, iid=i, text='',values=(record[1],(f'{record[0]}/54'),(f'{record[2][:-1]}')))
 
     tree.pack(expand=1,fill=BOTH)
