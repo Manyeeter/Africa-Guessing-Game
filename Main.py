@@ -271,6 +271,7 @@ def dificultyPage():
                   width=20,
                   fg=fontColour,
                   bg='#00BB00',
+                  relief=FLAT,
                   command=difficultyEasy)
     
     medium = Button(page2btnGrid,
@@ -279,6 +280,7 @@ def dificultyPage():
                   width=20,
                   fg=fontColour,
                   bg='#BBB000',
+                  relief=FLAT,
                   command=difficultyMedium)
     
     hard = Button(page2btnGrid,
@@ -287,6 +289,7 @@ def dificultyPage():
                   width=20,
                   fg=fontColour,
                   bg='#BB0000',
+                  relief=FLAT,
                   command=difficultyHard)
 
     easy.grid(row=0,column=0,sticky='nsew',pady=5)
