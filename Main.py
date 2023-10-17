@@ -487,7 +487,7 @@ def saveResultsPage():
 # Making page 6 (leaderboard Page)
 def leaderBoardPage():
 
-    # Setting up page 5
+    # Setting up page 6
     page6 = Frame(mainFrame,bg=bgColour)
     page6.pack(expand=1,fill=BOTH)
 
